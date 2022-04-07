@@ -1,0 +1,170 @@
+body {
+  font-family: "Cabin", "Lobster", sans-serif;
+}
+.nav_menu {
+  background-color: #373a3c;
+}
+.ricomida {
+  font-size: 37px;
+  color: #fff;
+  font-family: "lobster";
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #373a3c;
+}
+.porciones {
+  font-size: 20px;
+  font-weight: 700;
+  color: #373a3c;
+}
+hr {
+  background-color: #000000;
+}
+
+.principal {
+  margin: 2rem 0;
+}
+.principal div {
+  padding-left: 0;
+}
+.titulo_principal {
+  padding-top: 3rem;
+}
+.btn_1,
+.btn_2 {
+  color: #373a3c;
+  border-color: #dddddd;
+}
+.btn_2 {
+  margin-left: 1rem;
+}
+
+.cont_carousel {
+  margin: 4rem 0;
+}
+
+.hr2 {
+  margin-top: 4rem;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  opacity: 1;
+  background-color: black;
+}
+.carousel-indicators .active {
+  background-color: #dddddd;
+}
+
+.receta_paso {
+  font-size: 20px;
+  color: #373a3c;
+}
+
+.section_recetas {
+  margin-bottom: 4rem;
+}
+.recetas_relacionadas {
+  color: #373a3c;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+.tiramisu {
+  margin: 0.5rem 1rem 0.5rem 1rem !important;
+}
+.card-title {
+  font-size: 23px;
+  font-weight: 700;
+  color: #373a3c;
+}
+.card-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #373a3c;
+}
+.newsletter {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 6rem 0;
+}
+
+.suscribete {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.recetas {
+  font-size: 30px;
+  font-weight: 400;
+}
+.recetas_ricomida {
+  font-family: "Lobster";
+}
+
+.btn_empezar {
+  font-size: 16px;
+  color: #fff;
+  border-color: #dddddd;
+  width: 12rem;
+}
+
+footer {
+  background-color: #373a3c;
+  padding: 1rem 0;
+}
+
+@media (max-width: 575.98px) {
+  .principal {
+    text-align: center;
+  }
+  .principal div {
+    padding: 0;
+  }
+  .titulo_principal h1 {
+    font-size: 25px;
+    padding-top: 1rem;
+  }
+  .porciones {
+    font-size: 16px;
+  }
+  .btn_1,
+  .btn_2 {
+    font-size: 13px;
+  }
+  .btn_2 {
+    margin-left: 0;
+  }
+
+  .cont_carousel {
+    display: none;
+  }
+
+  .receta_paso {
+    font-size: 16px;
+  }
+  .suscribete {
+    font-size: 30px;
+  }
+  .recetas {
+    font-size: 20px;
+  }
+  .btn_empezar {
+    font-size: 16px;
+  }
+
+  ol,
+  ul {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .tiramisu {
+    margin: 0.5rem 0 0.5rem 0 !important;
+  }
+}
